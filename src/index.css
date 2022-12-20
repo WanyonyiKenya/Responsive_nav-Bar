@@ -39,6 +39,7 @@ header .nav-btn{
   color:  var(--textColor);
   visibility: hidden;
   opacity: 0;
+  font-size: 1.8rem;
 }
 @media only screen and (max-width: 1024px) {
   header .nav-btn{
@@ -62,6 +63,14 @@ header .nav-btn{
   }
   header .responsive_nav{
     transform: none;
+  }
+  nav .nav-close{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+  nav a{
+    font-size: 1.5rem;
   }
   
 }
